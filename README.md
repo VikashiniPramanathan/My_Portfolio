@@ -1,2 +1,2 @@
 # My_Portfolio
-Hoted link : https://bright-florentine-a27393.netlify.app
+Hosted link : https://bright-florentine-a27393.netlify.app
