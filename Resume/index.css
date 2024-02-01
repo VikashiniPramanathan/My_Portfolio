@@ -1,0 +1,466 @@
+html{
+	width:auto;
+
+}
+body{
+	margin: 0px;
+	font-family:sans-serif;
+	font-size: 16px;
+	height: 100%;
+	width: auto;
+	font-weight:500;
+
+}
+main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+/*Body header*/
+#body_header{
+	height: 60vh;
+/*	background-image:url("D:/Sublime Editor/Resume/images/h-2.jpg") ;*/
+		background-image: linear-gradient(yellow,blue);
+	padding-top:2rem;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Horizonrial list*/
+.horizontial_list{
+	list-style: none;
+	margin-bottom: 12;
+	padding-left: 10px;
+	margin: 0px
+
+}
+
+/*Horizontial navigation*/
+.horizontial_list li{
+	display: inline-block;  
+	margin: 0px,12px,12px,0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+/*Color for navigation*/
+.horizontial_list li a{
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.nav_menu li {
+	padding: 0.2rem 0.7rem;
+}
+
+.nav_menu li a{
+	transition: color 1s, border-bottom 7s;
+}
+
+/*Highlighting text while touch*/ 
+.nav_menu li a:hover{
+	color:green;
+	border-bottom: 1px solid white;
+}
+.text-center{
+	margin-bottom: 0.5rem;
+	font-size: 25px;
+	text-align: center;
+}
+.text-center_one{
+	
+	text-align: left;
+}
+
+
+/*Letter size for name* (div:my_name)*/
+#my_name{
+	font-family: sans-serif;
+	font-size: 38px;
+	letter-spacing: 0.1rem;
+	color: black;
+	 font-weight: bold;
+	 margin-bottom: 0.5rem;
+	 text-align: center;
+	 padding-top: 1rem;
+}
+
+#social_continer{
+	text-align: center;
+}
+	
+.social_icons li a i{
+    /*color: red;*/
+    padding: 10px;
+    font-size:25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 0.1rem;
+
+
+}
+
+
+.social_icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+
+}
+
+
+/*section:nth-child(2n){
+	background-color: white;
+}
+
+section:nth-child(2n+1){
+	background-color:grey;
+}*/
+
+
+/* ABOUT SECTION */
+#about{
+    height: auto;
+    width:auto;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+
+/*styles for about profile picture*/
+#my-image{
+    height: 11rem;
+    width: 11rem;
+    margin: auto;
+    margin-top: -19vh;
+    opacity: 20px;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+
+}
+
+
+/* RESUME */
+.button{
+	 background-color:yellow;
+        border: none;
+        border-radius: 8px ;
+        color: black;
+        padding: 3px 11px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        cursor: pointer;
+        top: 20%;
+
+}
+
+
+
+
+/*SKILLS*/
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	margin: 10px,auto;
+
+	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 30px;
+	color: darkblue;
+	display: inline-block;
+	padding-top: 8px;
+	margin-right: 0.5rem;
+	font-weight: bold;
+}
+
+.skills-display{
+	width: 40%;
+/*	height: 100px;
+	border:2px solid black ;*/
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1 rem;
+	margin-bottom: 1.5rem;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.skill-progress{
+	width: 7rem;
+	height:1.4rem ;
+	background-color: lightpink;
+	margin-bottom: 20px;
+	border-radius: 0.8rem;
+	border-radius: 2px solid black;
+	overflow: hidden;
+
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 15px;
+
+}
+
+.mb75px{
+	margin-bottom: 25px;
+}
+
+.text-heighlight{
+	color: #2857a4;
+	font-weight: 600;
+}
+
+/* JAVA PERCENTAGE */
+.mb-blue {
+    background-color:blue;
+}
+
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+    border-radius:0.8rem;
+  }
+
+ /* HTML PERCENTAGE */
+.ninety-five-percentage {
+		 width: 95%;
+    height: inherit;
+    border-radius:0.8rem;
+}
+.mb-green{
+	background-color: green;
+}
+
+
+/* CSS PRECENTAGE */
+.ninety-percentage{
+		width: 90%;
+    height: inherit;
+    border-radius:0.8rem;
+}
+.mb-red{
+	background-color: red;
+}
+
+
+/* DATA STRUCTURE */
+.fifty-percentage{
+	width: 50%;
+    height: inherit;
+    border-radius:0.8rem;
+}
+
+.mb-skyblue{
+	background-color:orangered;
+}
+
+/* LINUX */
+.sixty-percentage{
+		width: 60%;
+    height: inherit;
+    border-radius:0.8rem;
+}
+.mb-violet{
+	background-color:darkmagenta;
+}
+
+/* NETWORKING */
+.seventy-five-percentage{
+	width: 75%;
+    height:inherit;
+    border-radius:0.8rem;
+} 
+.mb-black{
+	background-color: black;
+}
+/* SPRING BOOT*/
+.fifty-percentage{
+	width:50%;
+	height:inherit ;
+	border-radius: 0.8rem;
+	overflow: visible;
+	
+
+}
+.mb.blue{
+	background-image: teal ;
+}
+/* SPRINGBOOT*/
+.forty-percentage{
+	width: 40%;
+	height: inherit;
+	border-radius: 0.8rem;
+	overflow: visible;
+}
+.mb-saffron{
+	background-color: brown;
+}
+
+
+
+/* PROJECTS*/
+#projects{
+	
+	margin-top:1rem
+}
+.timeline{
+	position: relative;
+	width: 75%;
+	border: 2px solid black;
+}
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+#passion-name{
+	font-size: 1rem;
+	color: red;
+	justify-content: space-between;
+}
+#passion-content{
+	font-size: 0.8rem;
+	color: darkcyan;
+
+}
+.timeline-divider {
+    position: absolute;
+    height: 90%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 5%;
+    left: 50%;
+    padding: 0px;
+}
+
+@media screen and (max-width: 600px){
+	.timeline-divider{
+		left: 8%;
+	}
+	.timeline-box{
+		left: 12%;
+		width: 80%;
+	}
+	.timeline-box:nth-child(2n) {
+    left: 12%;
+}
+	.timeline{
+		border: 0px;
+	}
+}
+.timeline-box-archieve{
+	position: relative;
+	width: 75%;
+	border: 2px solid black;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.timeline-achieve{
+	 position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+}
+.timeline-achieve:nth-child(2n) {
+    left: 53%;
+}
+#my-image-achieve img{
+	height: 100%;
+	width: 100%;
+}
+@media screen and (max-width: 600px){
+	.timeline-achieve{
+		left: 18%;
+		width: 70%;
+	}
+	.timeline-achieve:nth-child(2n){
+		left: 18%;
+	}
+}
+
+#Starbucks-pic{
+	height: 160px;
+	width: 180px;
+
+}
+
+#star-pic{
+	height: 190px;
+	width: 140px;
+}
+
+#passion-content{
+	font-size: 13px;
+}
+
+#passion-name{
+	justify-content: space-around;
+}
+
+/* CONTACT */
+#contact{
+	background-color: skyblue;
+	color: black;
+	height:auto;
+	margin-top: 6rem;
+	display: flex;
+	flex-wrap: row;
+}
+#contact-form-container{
+	align-items: center;
+	width: 80%;
+}
+#contact-form{
+	padding-left: 3rem;
+}
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+    color: white;
+}
+
+#contact .social-icons li a i: hover{
+		box-shadow: 0px 0px 6px 4px gold;	
+} 
